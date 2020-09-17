@@ -1,0 +1,52 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Azzets Docs
+  version: 0.1.X
+  folders:
+
+  - title: Introducing the Wizzie Azzets Platform
+    output: web
+    folderitems:
+
+    - title: Intro & current technology status
+      url: /azzets-docs/azzets_0.1.X_index.html
+      output: web
+      type: homepage
+
+    - title: What is Azzets for?
+      url: /azzets-docs/azzets_0.1.X_what_is.html
+      output: web
+
+  - title: First steps with Azzets
+    output: web
+    folderitems:
+
+    - title: Creating an organization
+      url: /azzets-docs/azzets_0.1.X_creating_organization.html
+      output: web
+
+    - title: Creating a plane
+      url: /azzets-docs/azzets_0.1.X_creating_plane.html
+      output: web
+
+    - title: Adding zones to a plane
+      url: /azzets-docs/azzets_0.1.X_creating_zones.html
+      output: web
+
+    - title: Creating an user
+      url: /azzets_0.1.X_creating_user.html
+      output: web
+
+  - title: Visualize Data with Vizzual
+    output: web
+
+    folderitems:
+    - title: What is Vizzual for?
+      url: /planes-docs/vizzual_0.1.0_index.html
+      output: web
+
+    - title: Importing planes
+      url: /planes-docs/vizzual_0.1.0_import.html
+      output: web
