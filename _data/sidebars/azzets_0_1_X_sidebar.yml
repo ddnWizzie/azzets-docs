@@ -10,43 +10,47 @@ entries:
     output: web
     folderitems:
 
-    - title: Intro & current technology status
-      url: /azzets-docs/azzets_0.1.X_index.html
+    - title: What is Azzets for?
+      url: /azzets_0.1.X_index.html
       output: web
       type: homepage
 
-    - title: What is Azzets for?
-      url: /azzets-docs/azzets_0.1.X_what_is.html
+    - title: First Steps in Azzets
+      url: /azzets_0.1.X_what_is.html
       output: web
 
-  - title: First steps with Azzets
+  - title: Root Mode
     output: web
     folderitems:
 
-    - title: Creating an organization
-      url: /azzets-docs/azzets_0.1.X_creating_organization.html
-      output: web
-
-    - title: Creating a plane
-      url: /azzets-docs/azzets_0.1.X_creating_plane.html
-      output: web
-
-    - title: Adding zones to a plane
-      url: /azzets-docs/azzets_0.1.X_creating_zones.html
-      output: web
-
-    - title: Creating an user
+    - title: Create User
       url: /azzets_0.1.X_creating_user.html
       output: web
 
-  - title: Visualize Data with Vizzual
+    - title: Create a Provider
+      url: /azzets_0.1.X_creating_provider.html
+      output: web
+
+    - title: Create an Azzets Use
+      url: /azzets_0.1.X_creating_Azzets_use.html
+      output: web
+
+    - title: Create an Azzets
+      url: /azzets_0.1.X_creating_azzets.html
+      output: web
+
+  - title: Provider Mode
     output: web
 
     folderitems:
-    - title: What is Vizzual for?
-      url: /planes-docs/vizzual_0.1.0_index.html
+    - title: Create Users Provider
+      url: /vizzual_0.1.0_create_azzets_user.html
       output: web
 
-    - title: Importing planes
-      url: /planes-docs/vizzual_0.1.0_import.html
+    - title: Create an Azzets Use Provider
+      url: /vizzual_0.1.0_Create_Azzets_UseP.html
+      output: web
+
+    - title: Create Azzets
+      url: /vizzual_0.1.0_create_azzetsp.html
       output: web

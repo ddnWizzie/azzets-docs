@@ -1,35 +1,46 @@
 ---
-title: Creating an user
+title: Create User
 permalink: /azzets_0.1.X_creating_user.html
 toc: false
 ---
 
-The first time the user starts the application, a root user must be created, for this, he only has to click on the button
- `Create a New User` 
 
-{% include image.html file="azzets/user/button_CNUser.png" alt="Create User" %}
+* * *
+First impression upon access.
+When we identify ourselves, our main screen will appear, where the first thing we will do is manage our account. We click on `Administration/User Management`
 
-Then we fill in the form that appears:
+{% include image.html file="azzets/useRoot/cnu_manager1.png" alt="Create User" %}
 
-{% include image.html file="azzets/user/user_register.png" alt="User Register" %}
+* * *
+Here we see our user and we click on edit, we get a new window where we will fill in the form.
 
-Username:
-        This is the username with which we will later access this application. In this case we will put a valid email address.
+{% include image.html file="azzets/useRoot/formRoot.png" alt="Form" %}
 
-Password:
-        We introduce a password (if it is secure, better) to be able to access the application. The password security level is displayed below.
+*Username "email"*: It is the login user
 
-Confirm Password:
-        It is the confirmation of the previous field "Password". We re-enter our password to avoid mistakes.
+*First Name*: This is the name of the user who will use this account eg. Robert
 
-To finish with the registration we press the blue button `Register`, which will take us to a new window, it tells us that we must go to our email and confirm our registration.
+*Last Name*: This is the Surname of the user who will use this account. ex. Smith
 
-{% include image.html file="azzets/user/noReplay-check.png" alt="Email Confirmation" %}
+*Wizzie Token API:* This is an API Token that Wizzie must give to the user. Without this API the user cannot work in the system, it is necessary to be able to load the Wizzie organizations and to be able to create Provider
 
-Once this is done, the new user will be created in our database and will have access to use the application. Clicking on the link in the email will take you directly to the application confirmation window, where you will only have to log in and we are ready to use Azzets !!!
+*Language:* This is the user's preferred language. The application supports three languages, Spanish, English and Catalan
 
-{% include image.html file="azzets/user/activation_Ok.png" alt="Sing In" %}
 
-We click on Sing In and enter the data again, then we click on the blue Sing In button
+* * * 
+   {% include image.html file="azzets/useRoot/enduser.png" alt="End" %}             
+_ _ _
+There are two types of users, root and a Provider administrator:
 
-{% include image.html file="azzets/user/sing_In.png" alt="Sing In" %}
+1- Root:
+
+The root and activated check boxes are marked by default, to create a root user we must select both check boxes. If you are root, you will have access to all the Providers and all the information.
+At the end we click on the blue `SAVE` button.
+
+{% include image.html file="azzets/createUserRoot/checkboxroot.png" alt="Create User" %}
+
+2- Provider:  
+In the event that the user we are creating is not root, we must uncheck the root checkbox and specify the Provider to which it belongs. This user will only see the data of their Provider.
+
+{% include image.html file="azzets/createUserRootProvider/user-noroot.png" alt="Create User" %}
+
