@@ -1,2 +1,2 @@
-# planes-docs.github.io
-Planes Project Website
+# azzets-docs.github.io
+Azzets Project Website
