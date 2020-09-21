@@ -1,5 +1,5 @@
 repository: ddnWizzie/azzets-docs
-baseurl: "azzets-docs"
+
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
