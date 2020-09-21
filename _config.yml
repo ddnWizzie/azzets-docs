@@ -1,4 +1,5 @@
 repository: ddnWizzie/azzets-docs
+baseurl: "azzets-docs"
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -91,7 +92,7 @@ sidebars:
 - azzets_0_1_X_sidebar
 
 # SEO and Social config
-google_site_verification: 8G13iLMreJldVEWLkrZnzCNNoa4ywsYfzAoPydBJgPo
+# google_site_verification: 8G13iLMreJldVEWLkrZnzCNNoa4ywsYfzAoPydBJgPo
 
 title: Azzets Project Documentation
 description: Azzets Project Documentation
