@@ -96,13 +96,8 @@ sidebars:
 
 title: Azzets Project Documentation
 description: Azzets Project Documentation
-<<<<<<< HEAD
-url: https://ddnwizzie.github.io/
+url: https://ddnwizzie.github.io
 baseurl: azzets-docs/
-=======
-url: https://ddnWizzie.github.io
-baseurl: /azzets-docs
->>>>>>> master
 logo: /images/wizzie_logo.png
 lang: 'en-US'
 
