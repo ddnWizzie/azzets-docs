@@ -1,6 +1,4 @@
 repository: ddnWizzie/azzets-docs
-
-
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
@@ -96,7 +94,7 @@ sidebars:
 
 title: Azzets Project Documentation
 description: Azzets Project Documentation
-url: https://ddnwizzie.github.io
+url: https://ddnWizzie.github.io
 baseurl: /azzets-docs
 logo: /images/wizzie_logo.png
 lang: 'en-US'
