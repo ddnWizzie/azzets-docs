@@ -2,19 +2,10 @@
 title: "Azzets Home"
 permalink: /azzets_0.1.X_index.html
 ---
-
+coming soon!!!
 ## What is the Azzets Platform?  
 
-* * *
-## What is a Provider?  
 
-* * *
-## What is an Azzets Use?  
-
-* * *
-## What is an Azzets?  
-
-* * *
 
 ## Follow our guidee
 
